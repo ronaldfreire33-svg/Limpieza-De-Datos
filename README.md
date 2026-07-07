@@ -120,4 +120,5 @@ SELECT * FROM data_limpia WHERE cliente_limpio = 'MARIA LOPEZ';
 - Antes de limpiar cualquier columna, primero diagnostico — no asumo qué está sucio.
 - NULL y vacío (`''`) son errores distintos y requieren manejo distinto; hay que medir ambos por separado.
 - No limpio de más: si me piden limpiar dos columnas, no toco las demás sin que me lo pidan.
-
+- Armo la cadena de código mínima necesaria según el diagnóstico, no la máxima por costumbre.
+- Documentar qué reemplacé y por qué es parte del trabajo, no un extra — ayuda a quien revise el resultado después.
