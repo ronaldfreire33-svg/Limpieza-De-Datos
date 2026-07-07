@@ -80,7 +80,7 @@ ORDER BY producto, categoria DESC;
 ```
 <img width="547" height="350" alt="image 3" src="https://github.com/user-attachments/assets/f1f0cb86-38ae-4152-bea9-bf14d3707604" />
 
-> **Nota:** en un `ORDER BY` con varias columnas, el ASC/DESC no se hereda entre columnas — cada una necesita su propia dirección si quiero controlarla.
+> **Nota:** en un `ORDER BY` con varias columnas, el ASC/DESC, cada una necesita su propia dirección si quiero controlarla.
 
 Con este resultado identifiqué que **producto** y **categoria** tenían el mismo tipo de falla: mayúsculas y minúsculas mezcladas ("Teclado" / "teclado" / "TECLADO"), sin necesitar duplicados reales fuera de eso.
 
