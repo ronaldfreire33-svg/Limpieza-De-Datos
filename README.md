@@ -3,7 +3,9 @@
 *Ejercicio práctico — proceso personal de un analista Jr.*
 
 > **Nota sobre este ejercicio**
-> Para fines demostrativos se usó una tabla de solo 20 filas, creada intencionalmente con fallas típicas (nulos, vacíos, espacios, mayúsculas/minúsculas mezcladas y códigos ruido). El objetivo no es el volumen de datos, sino documentar el razonamiento y los pasos que seguí para diagnosticar y corregir una tabla — el mismo proceso aplica a tablas de miles de filas.
+> Para fines demostrativos se usó una tabla de solo 20 filas, con fallas típicas (nulos, vacíos, espacios, mayúsculas/minúsculas mezcladas y códigos ruido). El objetivo no es el volumen de datos, sino documentar el razonamiento y los pasos que seguí para diagnosticar y corregir una tabla — el mismo proceso aplica a tablas de miles de filas.
+> 
+<img width="446" height="450" alt="32Captura de pantalla 2026-07-07 151216" src="https://github.com/user-attachments/assets/5cff5094-2e10-443b-a858-53cb7afaaf4e" />
 
 ## Contexto
 
